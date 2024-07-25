@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-image: url(img/bg1.jpg);
+    color: #111111;
+    font-family:"Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.emb{
+    height: 100%;
+    background-color: #111111d1;
+}
+h1{
+    display: none;
+    font-size: 2.3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nerdhouse{
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 350px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    /*border-radius: 10px;
+    border: solid 1px;*/
+}
+
+.content{
+    height: 720px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    border-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.linkbar{
+    border: solid 1px;
+    border-color: #fff;
+    background: rgb(255,221,0);
+    background: -moz-linear-gradient(90deg, rgba(255,221,0,1) 0%, rgba(255,111,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,221,0,1) 0%, rgba(255,111,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,221,0,1) 0%, rgba(255,111,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffdd00",endColorstr="#ff6f00",GradientType=1);
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    /*border: 1px solid;
+    border-color: #fff;
+    border-radius: 5px;*/
+    display: flex;
+    margin-top: 13px;
+    float: left;
+    margin-left:50px;
+    justify-content: center;
+    color: #fff;
+    font-size: 3.1rem;
+    text-align: center;
+}
+
+.linkbar:hover{
+    background: rgb(255,111,0);
+    background: -moz-linear-gradient(90deg, rgba(255,111,0,1) 0%, rgba(255,221,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,111,0,1) 0%, rgba(255,221,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,111,0,1) 0%, rgba(255,221,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6f00",endColorstr="#ffdd00",GradientType=1);
+}
+
+.link{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #111111;
+    border-color: #fff;
+}
+
+.credit{
+    color: #fff;
+}
