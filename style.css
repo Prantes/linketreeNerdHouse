@@ -6,8 +6,11 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100%;
+}
 .container{
-    height: 100vh;
+
     background-image: url(img/bg1.jpg);
     color: #111111;
     font-family:"Roboto", sans-serif;
@@ -79,6 +82,7 @@ h1{
 }
 
 .box{
+    text-decoration: none;
     height: 50px;
     width: 50px;
     /*border: 1px solid;
@@ -89,9 +93,14 @@ h1{
     float: left;
     margin-left:50px;
     justify-content: center;
-    color: #fff;
+    color: #f10707f1;
     font-size: 3.1rem;
     text-align: center;
+}
+
+.box a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .linkbar:hover{
