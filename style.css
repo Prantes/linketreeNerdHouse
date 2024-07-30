@@ -6,11 +6,8 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 100%;
-}
 .container{
-
+    height: 100vh;
     background-image: url(img/bg1.jpg);
     color: #111111;
     font-family:"Roboto", sans-serif;
@@ -21,7 +18,7 @@ body{
 
 .emb{
     height: 100%;
-    background-color: #111111d1;
+    background-color: #11111185;
 }
 h1{
     display: none;
@@ -64,8 +61,8 @@ h1{
 }
 
 .linkbar{
-    border: solid 1px;
-    border-color: #fff;
+    /*border: solid 1px;
+    border-color: #fff;*/
     background: rgb(255,221,0);
     background: -moz-linear-gradient(90deg, rgba(255,221,0,1) 0%, rgba(255,111,0,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(255,221,0,1) 0%, rgba(255,111,0,1) 100%);
@@ -93,7 +90,6 @@ h1{
     float: left;
     margin-left:50px;
     justify-content: center;
-    color: #f10707f1;
     font-size: 3.1rem;
     text-align: center;
 }
@@ -109,6 +105,12 @@ h1{
     background: -webkit-linear-gradient(90deg, rgba(255,111,0,1) 0%, rgba(255,221,0,1) 100%);
     background: linear-gradient(90deg, rgba(255,111,0,1) 0%, rgba(255,221,0,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6f00",endColorstr="#ffdd00",GradientType=1);
+
+
+    -webkit-box-shadow: 1px 12px 66px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 12px 66px -14px rgba(0,0,0,0.75);
+    box-shadow: 1px 12px 66px -14px rgba(0,0,0,0.75);
+    
 }
 
 .link{
@@ -122,3 +124,4 @@ h1{
 .credit{
     color: #fff;
 }
+
